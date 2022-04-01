@@ -12,8 +12,8 @@ def getCoeff(num_left,num_right,num_down,num_up,num_cent,type_cent,cl_cent):
         return 0
     
     if type_cent == 2:
-        a = np.array(1)
-        j = np.array(num_cent)
+        a = np.array([[1]])
+        j = np.array([[num_cent]])
         b = cl_cent
        
     
